@@ -3,6 +3,8 @@
 
 Demo Video Link: https://youtu.be/KwzTDBdjcjE
 
+Google Slide Link: https://docs.google.com/presentation/d/1hknIqGfF60lWrCO_lchNP4yEMYVygg_aByMAsv8nkus
+
 To run this project.
 
 - Clone this repo
