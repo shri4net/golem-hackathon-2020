@@ -1,6 +1,8 @@
 ## Golem UI
 ### (for Hackathon 2020)
 
+Demo Video Link: https://youtu.be/KwzTDBdjcjE
+
 To run this project.
 
 - Clone this repo
@@ -26,4 +28,3 @@ To run this project.
   npm run dev:electron
 ```
 
-code hints: https://github.com/elisealcala/electron-react-ts.git
