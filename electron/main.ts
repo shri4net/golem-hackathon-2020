@@ -8,6 +8,7 @@ function createWindow() {
   mainWindow = new BrowserWindow({
     width: 1280,
     height: 720,
+    title: 'Golem UI',
     webPreferences: {
       nodeIntegration: true,
       webSecurity: false,
@@ -23,9 +24,12 @@ function createWindow() {
         pathname: path.join(__dirname, "index.html"),
         protocol: "file:",
         slashes: true,
+        
       })
     );
   }
+
+  mainWindow.webContents.on('did-finish-load',()=>{mainWindow?.setTitle('Golem UI');});
 
   mainWindow.on("closed", () => {
     mainWindow = null;
